@@ -1,0 +1,19 @@
+{
+  "name": "@hanjunpeng/template-utils",
+  "version": "0.1.0",
+  "description": "这是一个用于开发javascript工具的模板仓库",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "韩俊鹏",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Han-Jun-Peng/template-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Han-Jun-Peng/template-utils/issues"
+  },
+  "homepage": "https://github.com/Han-Jun-Peng/template-utils#readme"
+}
