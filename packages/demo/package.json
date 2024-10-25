@@ -13,7 +13,7 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "jest",
 		"prettier": "prettier --write",
 		"build": "rollup --config"
 	},
@@ -38,12 +38,11 @@
 		"@eslint/js": "catalog:",
 		"typescript-eslint": "catalog:",
 		"jest": "catalog:",
-		"@types/jest": "catalog:",
-		"ts-jest": "catalog:",
+		"@jest/globals": "catalog:",
+		"babel-jest": "catalog:",
 		"@babel/core": "catalog:",
 		"@babel/preset-env": "catalog:",
 		"@babel/preset-typescript": "catalog:",
-		"@babel/plugin-transform-runtime": "catalog:",
 		"@commitlint/cli": "catalog:",
 		"@commitlint/config-conventional": "catalog:",
 		"husky": "catalog:",
