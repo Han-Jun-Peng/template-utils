@@ -6,7 +6,7 @@ catalog:
   rollup: ^4.24.0
   "@rollup/plugin-typescript": ^12.1.1 # 打包时， 运行typescript检测， 和生成d.ts
   tslib: ^2.8.0 # 附属的库
-  "@rollup/plugin-terser": ^0.4.4 # 打包s时， 压缩代码
+  "@rollup/plugin-terser": ^0.4.4 # 打包时， 压缩代码
 
   # 打包时， 从ts文件， 生成d.ts
   typescript: ^5.6.3
@@ -14,19 +14,18 @@ catalog:
   # 开发时 - 代码风格检测
   prettier: ^3.3.3
 
-  # 开发时 - 样式检测
+  # 开发时 - 语法检测
   eslint: ^9.13.0
-  "@eslint/js": ^10.0.0
-  typescript-eslint: ^8.11.0 # 让eslint， 可以检测ts
+  "@eslint/js": ^10.0.0 # eslint官方推荐的配置项（检测js文件）
+  typescript-eslint: ^8.11.0 # eslint官方推荐的配置项（检测ts文件）
 
   # 开发时 - 测试
   jest: ^29.7.0
-  "@types/jest": ^29.5.14 # 编写jest时， 做类型提示的
-  ts-jest: ^29.2.5 # 让jest可以直接运行ts扩展名的测试代码
-  "@babel/core": ^7.25.9 # ts-jest基于babel
+  "@jest/globals": ^29.7.0 # 编写测试用例时， 导入test等测试函数
+  babel-jest: ^29.7.0 # 让jest可以运行ts扩展名的测试用例
+  "@babel/core": ^7.25.9 # babel-jest基于babel
   "@babel/preset-env": ^7.25.9
   "@babel/preset-typescript": ^7.25.9 # 让babel可以编译ts
-  "@babel/plugin-transform-runtime": ^7.25.9 # babel的插件： 垫片
 
   # 提交前 - 提交规范检测
   "@commitlint/cli": ^19.5.0
