@@ -1,40 +1,41 @@
 {
-  "name": "@hanjunpeng/template-utils",
-  "version": "0.1.0",
-  "description": "这是一个用于开发javascript工具的模板仓库",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "韩俊鹏",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Han-Jun-Peng/template-utils.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Han-Jun-Peng/template-utils/issues"
-  },
-  "homepage": "https://github.com/Han-Jun-Peng/template-utils#readme",
-  "devDependencies": {
-    "rollup": "catalog:",
-    "@rollup/plugin-typescript": "catalog:",
-    "tslib": "catalog:",
-    "@rollup/plugin-terser": "catalog:",
-    "typescript": "catalog:",
-    "prettier": "catalog:",
-    "eslint": "catalog:",
-    "typescript-eslint": "catalog:",
-    "jest": "catalog:",
-    "@types/jest": "catalog:",
-    "ts-jest": "catalog:",
-    "@babel/core": "catalog:",
-    "@babel/preset-env": "catalog:",
-    "@babel/preset-typescript": "catalog:",
-    "@babel/plugin-transform-runtime": "catalog:",
-    "@commitlint/cli": "catalog:",
-    "@commitlint/config-conventional": "catalog:",
-    "husky": "catalog:",
-    "lint-staged": "catalog:"
-  }
+	"name": "@hanjunpeng/template-utils",
+	"version": "0.1.0",
+	"description": "这是一个用于开发javascript工具的模板仓库",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "韩俊鹏",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Han-Jun-Peng/template-utils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Han-Jun-Peng/template-utils/issues"
+	},
+	"homepage": "https://github.com/Han-Jun-Peng/template-utils#readme",
+	"devDependencies": {
+		"rollup": "catalog:",
+		"@rollup/plugin-typescript": "catalog:",
+		"tslib": "catalog:",
+		"@rollup/plugin-terser": "catalog:",
+		"typescript": "catalog:",
+		"prettier": "catalog:",
+		"eslint": "catalog:",
+		"typescript-eslint": "catalog:",
+		"jest": "catalog:",
+		"@eslint/js": "catalog:",
+		"@types/jest": "catalog:",
+		"ts-jest": "catalog:",
+		"@babel/core": "catalog:",
+		"@babel/preset-env": "catalog:",
+		"@babel/preset-typescript": "catalog:",
+		"@babel/plugin-transform-runtime": "catalog:",
+		"@commitlint/cli": "catalog:",
+		"@commitlint/config-conventional": "catalog:",
+		"husky": "catalog:",
+		"lint-staged": "catalog:"
+	}
 }
