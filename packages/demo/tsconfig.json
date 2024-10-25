@@ -1,5 +1,6 @@
 {
 	"extends": "../../tsconfig.json",
+	"include": ["./src/**/*"],
 	"exclude": ["./__test__/*"],
 	"compilerOptions": {
 		"rootDir": "./src", // 源代码目录
