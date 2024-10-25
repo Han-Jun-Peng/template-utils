@@ -6,6 +6,12 @@
 	"main": "./build/index.cjs.js",
 	"module": "./build/index.esm.js",
 	"browser": "./build/index.script.js",
+	"files": [
+		"./build"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prettier": "prettier --write",
