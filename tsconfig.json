@@ -1,0 +1,44 @@
+{
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    // 类型检测
+    "exactOptionalPropertyTypes": true, //是否开启属性或参数的可选功能
+    "noFallthroughCasesInSwitch": true, //是否提醒有switch语句中, 缺少break或return或throw
+    "noImplicitOverride": true, //是否提醒当子类复写父类方法时缺少关键字override
+    "noImplicitReturns": true, //是否提醒方法中有条件语句缺少返回值
+    "noPropertyAccessFromIndexSignature": true, //是否提醒不能使用点的方式访问对象的未声明的成员， 但可以使用数组下标的方式访问。
+    "noUncheckedIndexedAccess": true, //是否给对象的未明确声明的成员, 添加undefined类型
+    "noUnusedLocals": true, //是否提醒有未使用的局部变量
+    "noUnusedParameters": true, //是否提醒方法中有未使用的参数
+    "strict": true, //是否开启严格类型检测
+
+    // 模块
+    // 因为开发工具需要打包发布， 所以通常引入的其他文件， 也会由打包工具rollup处理
+    "allowArbitraryExtensions": true, //是否不提醒在ts文件中，导入非js或ts文件
+    "emitDeclarationOnly": true, // 仅生成.d.ts文件, 不生成.js文件
+    "allowImportingTsExtensions": true, // 是否允许在ts文件中, 导入".ts", ".mts", "tsx"
+    "module": "ESNext", // 当前模块的规范-es模块
+    "moduleResolution": "Node", // 模块的解析策略
+    "moduleSuffixes": ["ts", "js", ""], //当导入模块无扩展名, 模块解析时要搜索的扩展名列表
+    "resolveJsonModule": true, // 是否支持导入json模块
+
+    // 编译输出
+    "declaration": true, // 是否为每个ts或js文件, 生成.d.ts文件
+    "removeComments": true, // 编译时, 删除所有注释
+
+    // JS支持
+    "allowJs": true, // 是否允许在ts文件中， 导入js文件
+    "checkJs": true, // 是否提醒js文件内代码的类型错误
+
+    // 互操作约束
+    "verbatimModuleSyntax": true, // 是否在编译时删除导入时用type标记的类型
+
+    // 语言与环境
+    "target": "ESNext" // 编译目标
+
+    // 注意， 以下将由子项目继承后，再配置
+    // "rootDir": "./src" // 配置源代码目录（这将影响编译后生成的目录结构）
+    // "declarationDir": "./build", // 生成.d.ts文件的目录
+  }
+}
