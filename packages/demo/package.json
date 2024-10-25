@@ -1,0 +1,40 @@
+{
+	"name": "@hanjunpeng/demo",
+	"version": "0.1.0",
+	"description": "这是一个demo, 表示一个js工具库",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Han-Jun-Peng/template-utils.git"
+	},
+	"author": "韩俊鹏",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Han-Jun-Peng/template-utils/issues"
+	},
+	"homepage": "https://github.com/Han-Jun-Peng/template-utils#readme",
+	"devDependencies": {
+		"rollup": "catalog:",
+		"@rollup/plugin-typescript": "catalog:",
+		"tslib": "catalog:",
+		"@rollup/plugin-terser": "catalog:",
+		"typescript": "catalog:",
+		"prettier": "catalog:",
+		"eslint": "catalog:",
+		"typescript-eslint": "catalog:",
+		"jest": "catalog:",
+		"@types/jest": "catalog:",
+		"ts-jest": "catalog:",
+		"@babel/core": "catalog:",
+		"@babel/preset-env": "catalog:",
+		"@babel/preset-typescript": "catalog:",
+		"@babel/plugin-transform-runtime": "catalog:",
+		"@commitlint/cli": "catalog:",
+		"@commitlint/config-conventional": "catalog:",
+		"husky": "catalog:",
+		"lint-staged": "catalog:"
+	}
+}
