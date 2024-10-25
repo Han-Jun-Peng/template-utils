@@ -2,8 +2,10 @@
 	"name": "@hanjunpeng/demo",
 	"version": "0.1.0",
 	"description": "这是一个demo, 表示一个js工具库",
-	"main": "index.js",
 	"type": "module",
+	"main": "./build/index.cjs.js",
+	"module": "./build/index.esm.js",
+	"browser": "./build/index.script.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prettier": "prettier --write",
