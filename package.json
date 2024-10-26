@@ -41,6 +41,7 @@
 		"@commitlint/cli": "catalog:",
 		"@commitlint/config-conventional": "catalog:",
 		"husky": "catalog:",
-		"lint-staged": "catalog:"
+		"lint-staged": "catalog:",
+		"@changesets/cli": "catalog:"
 	}
 }
