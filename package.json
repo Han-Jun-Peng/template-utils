@@ -5,8 +5,10 @@
 	"scripts": {
 		"test": "jest",
 		"prettier": "prettier --write",
-		"eslint": "eslint",
-		"ts": "tsc"
+		"eslint": "eslint --fix",
+		"ts": "tsc --noEmit",
+		"prepare": "husky",
+		"lint": "lint-staged"
 	},
 	"type": "module",
 	"keywords": [],
