@@ -1,5 +1,5 @@
 {
-	"exclude": ["node_modules"],
+	"include": ["packages/**/src/**/*"],
 	"compilerOptions": {
 		// 类型检测
 		"exactOptionalPropertyTypes": true, //是否开启属性或参数的可选功能
@@ -14,6 +14,7 @@
 
 		// 模块
 		// 因为开发工具需要打包发布， 所以通常引入的其他文件， 也会由打包工具rollup处理
+		"allowSyntheticDefaultImports": true, // 是否允许其他模块类型的默认导入
 		"allowArbitraryExtensions": true, //是否不提醒在ts文件中，导入非js或ts文件
 		"emitDeclarationOnly": true, // 仅生成.d.ts文件, 不生成.js文件
 		"allowImportingTsExtensions": true, // 是否允许在ts文件中, 导入".ts", ".mts", "tsx"
